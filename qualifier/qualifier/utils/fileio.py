@@ -29,8 +29,11 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-def save_csv(output_path):
+def save_csv(output_path, data):
+    header = ["Banks offering a loan"]
     with open(output_path, "w") as new_csv_file:
-        data = []
+        
         csvwriter = csv.writer(new_csv_file, delimiter = ",")
-    
+        csvwriter.writerow(header)
+        for row in data:
+            csvwriter.writerow(row)
