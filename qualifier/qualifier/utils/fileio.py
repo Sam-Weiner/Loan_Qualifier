@@ -30,7 +30,7 @@ def load_csv(csvpath):
     return data
 
 def save_csv(output_path, data):
-    header = ["Banks offering a loan"]
+    header = ["Lender, Max Loan Amount, Max LTV, Max DTI, Min Credit Score, Interest Rate"]
     with open(output_path, "w") as new_csv_file:
         
         csvwriter = csv.writer(new_csv_file, delimiter = ",")
