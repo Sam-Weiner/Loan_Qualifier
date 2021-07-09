@@ -7,16 +7,24 @@ financial information and be offered a list of banks where they would qualify fo
 
 ## Technologies
 
--Python 3.7
+- Python 3.7
 
--**[fire](https://google.github.io/python-fire/guide/)** - Users will use the command line interface offered by this package.
+- **[fire](https://google.github.io/python-fire/guide/)** - Users will use the command line interface offered by this package.
 
--
+- **[questionary](https://questionary.readthedocs.io/en/stable/)** - Provides interactive dialogues for the CLI.
+
+- **[pytest](https://docs.pytest.org/en/6.2.x/)** - Used for testing purposes.
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Please install the following dependencies prior to use.
+
+```python
+pip install fire
+pip install questionary
+pip install pytest
+```
 
 ---
 
