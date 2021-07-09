@@ -10,7 +10,7 @@ import sys
 import fire
 import questionary
 from pathlib import Path
-import csv
+
 
 from  qualifier.utils.fileio import (load_csv, save_csv)
 

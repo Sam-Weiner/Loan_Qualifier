@@ -2,7 +2,7 @@
 from pathlib import Path
 
 #Import fileio
-from utils import fileio
+from qualifier.utils import fileio
 
 # Import Calculators
 from qualifier.utils import calculators
@@ -13,10 +13,20 @@ from qualifier.filters import debt_to_income
 from qualifier.filters import loan_to_value
 from qualifier.filters import max_loan_size
 
-# def test_save_csv():
+def test_save_csv():
     # @TODO: Your code here!
     # Use Path from pathlib to output the test csv to ./data/output/qualifying_loans.csv
 
+    # This is placeholder data to run the save_csv test
+    list_to_write = [
+        [1, 2, 3, 4, 5, 6],
+        [1, 2, 3, 4, 5, 6]
+    ]
+    # The target path of the save_csv function, was a problem when it wasn't
+    # a variable, hence the file_path line below
+    file_path = Path("./data/output/qualifying_loans.csv")
+    fileio.save_csv(file_path, list_to_write)
+    assert file_path.exists()
 def test_calculate_monthly_debt_ratio():
     assert calculators.calculate_monthly_debt_ratio(1500, 4000) == 0.375
 
@@ -24,7 +34,10 @@ def test_calculate_loan_to_value_ratio():
     assert calculators.calculate_loan_to_value_ratio(210000, 250000) == 0.84
 
 def test_filters():
-    bank_data = fileio.load_csv(Path('./data/daily_rate_sheet.csv'))
+    # There were problems were problems with the file path being read
+    # Hence another variable to hold the path
+    file_path = Path("./data/daily_rate_sheet.csv")
+    bank_data = fileio.load_csv(file_path)
     current_credit_score = 750
     debt = 1500
     income = 4000
