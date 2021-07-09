@@ -1,7 +1,7 @@
 # Loan Qualifier Challenge 2
 
-This is an app for evaluating loan opportunities based on the criteria of a collection of banks. A user would be able to input their 
-financial information and be offered a list of banks where they would qualify for their desired loan.
+This is an app for evaluating loan opportunities based on the criteria of a collection of banks.  
+A user would be able to input their financial information and be offered a list of banks where they would qualify for their desired loan.  
 
 ---
 
@@ -36,10 +36,14 @@ This section should include screenshots, code blocks, or animations showing how 
 
 ## Usage
 
-The user will first be prompted to enter a path to the bank information that has each banks loan criteria.
+The user will first be prompted to enter a path to the bank information that has each banks loan criteria.  
 For the purposes of this assignment, the bank info is located in *data/daily_rate_sheets.csv*
 
-![markdown-image](/images/readme_enter_path_for_bank_info.PNG)
+![retrieving-bank-data](/images/readme_enter_path_for_bank_info.PNG)
+
+Next the user will be asked to input their own financial information.
+
+![user-info](/images\readme_user_info.PNG)
 
 
 
