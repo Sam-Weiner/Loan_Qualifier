@@ -1,13 +1,17 @@
-# Project Title
+# Loan Qualifier Challenge 2
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is an app for evaluating loan opportunities based on the criteria of a collection of banks. A user would be able to input their 
+financial information and be offered a list of banks where they would qualify for their desired loan.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+-Python 3.7
 
+-**[fire](https://google.github.io/python-fire/guide/)** - Users will use the command line interface offered by this package.
+
+-
 ---
 
 ## Installation Guide
