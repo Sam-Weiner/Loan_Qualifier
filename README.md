@@ -36,7 +36,12 @@ This section should include screenshots, code blocks, or animations showing how 
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+The user will first be prompted to enter a path to the bank information that has each banks loan criteria.
+For the purposes of this assignment, the bank info is located in *data/daily_rate_sheets.csv*
+
+![markdown-image](images\readme_enter_path_for_bank_info.PNG)
+
+
 
 ---
 
