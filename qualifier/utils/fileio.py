@@ -30,6 +30,16 @@ def load_csv(csvpath):
     return data
 
 def save_csv(output_path, data):
+    """Saves the list of loans to the local machine as a .csv file
+    
+    Args:
+        output_path: The location where the user would like to save the list of accepted loans.
+        data: The qualifying loans from the find_qualifying_loans function. Added automatically in the main app.
+    
+    Return: Saves the info.
+    
+    """
+
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
     with open(output_path, "w") as new_csv_file:
         
