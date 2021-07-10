@@ -1,4 +1,4 @@
-# Loan Qualifier Challenge 2
+# Loan Qualifier
 
 This is an app for evaluating loan opportunities based on the criteria of a collection of banks.  
 A user would be able to input their financial information and be offered a list of banks where they would qualify for their desired loan.  
@@ -44,6 +44,18 @@ For the purposes of this assignment, the bank info is located in *data/daily_rat
 Next the user will be asked to input their own financial information.
 
 ![user-info](/images/readme_user_info.PNG)
+
+The app then calculates and reports the users monthly debt-to-income ratio and their loan-to-home-value ratio.  
+After scanning the list of banks along with their criteria, the app reports a list of banks where the user is qualified for their desired loan.  
+Then the user is asked whether they would like to save this data in a more easy to read format.  
+
+![data-output](/images/readme_raw_data_output.PNG)
+
+If the user selected 'Yes', the app then asks the user where they would like to save their .csv file.  
+
+![where-to-save](/images/readme_where_to_save.PNG)
+
+With the file saved, the app closes itself in the terminal.
 
 
 
