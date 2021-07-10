@@ -43,7 +43,7 @@ For the purposes of this assignment, the bank info is located in *data/daily_rat
 
 Next the user will be asked to input their own financial information.
 
-![user-info](/images\readme_user_info.PNG)
+![user-info](/images/readme_user_info.PNG)
 
 
 
