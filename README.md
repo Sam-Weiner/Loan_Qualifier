@@ -66,8 +66,9 @@ With the file saved, the app closes itself in the terminal.
 
 ## Contributors
 
-Sam Weiner - Developer (in training)
-Built using code contributed by UC Berkeley Extension
+- Sam Weiner - Developer (in training)
+
+- Built using code contributed by UC Berkeley Extension
 
 ---
 
