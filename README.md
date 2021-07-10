@@ -63,10 +63,11 @@ With the file saved, the app closes itself in the terminal.
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
+Sam Weiner - Developer (in training)
+Built using code contributed by UC Berkeley Extension
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify others what they can and can not do with your source code and files. Use this section to include the licence you want to use.
+MIT
