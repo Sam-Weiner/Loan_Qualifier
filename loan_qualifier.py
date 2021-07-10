@@ -117,11 +117,11 @@ def save_qualifying_loans(qualifying_loans):
     save_confirmation = questionary.confirm("Would you like to save your data?").ask()
     if save_confirmation == False:
         sys.exit(f"Thank you for interest!")
-    output_path = questionary.text("Where would you like to save the list of qualifying loans?").ask()
+    output_path = questionary.text("Where would you like to save the list of qualifying loans? Be sure to specify .csv at the end of the location!").ask()
     output_path = Path(output_path)
     data = qualifying_loans
     save_csv(output_path, data)
-    sys.exit("Thank you for using this app, good luck in you're financial future!")
+    sys.exit("Saved! Thank you for using this app, good luck in you're financial future!")
 
 def run():
     """The main function for running the script."""
