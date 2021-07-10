@@ -28,9 +28,12 @@ pip install pytest
 
 ---
 
-## Examples
+## Examples of Code Functionality
 
-This section should include screenshots, code blocks, or animations showing how your project works.
+The main assignment that was asked of us in this week's challenge was to add the ability to save the results of this app as a .csv file.  
+To do this we are using the `csv` library, specifically the `csv.writer` functionality and `.writerow` function.
+
+![csvwriter_image](/images/readme_csvwriter_code.PNG)
 
 ---
 
